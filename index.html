@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hillbilly Baking | Homestyle Baked Goods</title>
+    <title>Hillbilly Baking | Come and Get It!</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
             <div class="logo">Hillbilly Baking</div>
             <nav>
                 <a href="#about">Our Story</a>
-                <a href="#menu">Featured Goods</a>
+                <a href="#menu">Menu</a>
                 <a href="#contact" class="btn-nav">Place an Order</a>
             </nav>
         </div>
@@ -25,11 +25,12 @@
     <section class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1>Fresh, Homestyle Baking Straight from the Heart</h1>
-            <p>Handcrafted sweets, classic comfort treats, and authentic flavors baked fresh daily.</p>
+            <span class="hero-subtitle">Hillbilly Baking</span>
+            <h1>Come and Get It!</h1>
+            <p>Handcrafted sweets, classic comfort treats, and authentic downhome flavors baked fresh in Monroe, MI.</p>
             <div class="hero-buttons">
-                <a href="#menu" class="btn btn-primary">View Featured Goods</a>
-                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                <a href="#menu" class="btn btn-primary">View the Menu</a>
+                <a href="#contact" class="btn btn-secondary">Order Now</a>
             </div>
         </div>
     </section>
@@ -37,16 +38,23 @@
     <section id="about" class="about-section">
         <div class="container about-grid">
             <div class="about-text">
-                <span class="subtitle">Welcome to Hillbilly Baking</span>
-                <h2>Made from Scratch, Just Like It Used to Be</h2>
-                <p>Welcome to our kitchen! At Hillbilly Baking, we believe that the best memories are made around the table with something sweet. We bring down-home flavor and authentic, time-tested recipes to everything we bake.</p>
-                <p>Whether you're craving nostalgic comfort treats, custom orders for a special event, or everyday staples made with love, we've got you covered. Check out our latest creations or reach out to place your custom order today!</p>
+                <span class="subtitle">Meet the Baker</span>
+                <h2>Homemade with Heart</h2>
+                <p>Welcome to Hillbilly Baking! Run by Alicia Chambers, Owner and Baker, we bring true down-home flavor and authentic, time-tested recipes straight to your table.</p>
+                <p>Everything is made from scratch with high-quality ingredients, careful attention to flavor, and a whole lot of love. Whether you're picking up a weekend treat or planning a family gathering, we have the fresh bakes you need.</p>
+                <div class="owner-badge">
+                    <strong>Alicia Chambers</strong><br>
+                    <span style="color: #d4af37; font-size: 14px;">Owner / Baker</span>
+                </div>
             </div>
-            <div class="about-image-placeholder">
-                <div class="placeholder-card">
-                    <h3>Baked Fresh Daily</h3>
-                    <p>Follow our journey on Facebook for daily updates, freshly baked batches, and seasonal specials!</p>
-                    <a href="https://www.facebook.com/profile.php?id=61589755246319" target="_blank" class="fb-link">Visit Our Facebook Page →</a>
+            <div class="about-card-container">
+                <div class="business-card-mock">
+                    <h3>Contact Information</h3>
+                    <p class="card-detail">📍 1883 Stewart Road<br>Monroe, MI 48162</p>
+                    <p class="card-detail">✉️ aliciabstn@gmail.com</p>
+                    <hr style="border: 0; border-top: 1px solid #444; margin: 15px 0;">
+                    <p class="card-detail" style="font-size: 14px;">Find us on Venmo for simple payments:<br><strong>@Taurus5576</strong></p>
+                    <a href="https://www.facebook.com/profile.php?id=61589755246319" target="_blank" class="fb-link">Follow on Facebook →</a>
                 </div>
             </div>
         </div>
@@ -55,36 +63,80 @@
     <section id="menu" class="menu-section">
         <div class="container">
             <div class="section-header">
-                <h2>Our Featured Specialties</h2>
-                <p>A sneak peek at some of our crowd favorites. Everything is handcrafted with premium ingredients.</p>
+                <h2>Our Menu</h2>
+                <p class="menu-tagline">♥ Come and Get It! ♥</p>
             </div>
-            <div class="menu-grid">
-                <div class="menu-card">
-                    <div class="menu-info">
-                        <h3>Classic Whoopie Pies</h3>
-                        <p>Soft, cake-like cookies sandwiched together with a rich, fluffy cream filling. Available in classic chocolate, red velvet, and seasonal flavors.</p>
+
+            <div class="menu-category">
+                <h3>Specialty Breads</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-info">
+                            <h4>Banana</h4>
+                            <span class="price">$8</span>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="menu-info">
+                            <h4>Apple Cinnamon</h4>
+                            <span class="price">$10</span>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="menu-info">
+                            <h4>Lemon Blueberry</h4>
+                            <span class="price">$10</span>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="menu-info">
+                            <h4>Sweet Alabama Pecan</h4>
+                            <span class="price">$12</span>
+                        </div>
                     </div>
                 </div>
-                <div class="menu-card">
-                    <div class="menu-info">
-                        <h3>Homestyle Cakes & Cupcakes</h3>
-                        <p>Moist, decadent cakes decorated beautifully for birthdays, family gatherings, or just weekend cravings.</p>
-                    </div>
+                <div class="menu-notice">
+                    <p>★ All full size Specialty Breads are available in mini loaves for $3 each or a 4-pack for $12 ★</p>
                 </div>
-                <div class="menu-card">
-                    <div class="menu-info">
-                        <h3>Custom Treats & Pastries</h3>
-                        <p>Have something specific in mind? From custom cookies to rustic pastry platters, we can bring your baking ideas to life.</p>
+            </div>
+
+            <div class="menu-category" style="margin-top: 50px;">
+                <h3>Downhome Delights</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-info">
+                            <h4>Honey Buttered Cornbread</h4>
+                            <span class="price">$2.50ea / 6 for $12</span>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="menu-info">
+                            <h4>Jalapeño Cornbread</h4>
+                            <span class="price">$2.50ea / 6 for $12</span>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="menu-info">
+                            <h4>Buttermilk Biscuits</h4>
+                            <span class="price">$2ea / 6 for $10</span>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="menu-info">
+                            <h4>Blueberry Buttermilk Biscuits</h4>
+                            <span class="price">$2.50ea / 6 for $12</span>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
     <section id="contact" class="contact-section">
         <div class="container contact-box">
-            <h2>Place an Order or Ask a Question</h2>
-            <p>Have a custom baking request, event inquiry, or want to check what's fresh out of the oven today? Send us a message and we'll get right back to you!</p>
+            <h2>Place your Order</h2>
+            <p>Ready to get your hands on some fresh bakes? Fill out the form below with your desired items or any special custom requests, and Alicia will get right back to you to finalize pick-up or delivery details.</p>
             
             <form action="https://formspree.io/f/your-formspree-id" method="POST" class="contact-form">
                 <div class="form-group">
@@ -96,17 +148,17 @@
                     <input type="email" id="email" name="_replyto" required placeholder="john@example.com">
                 </div>
                 <div class="form-group">
-                    <label for="message">What are you craving? (Order details / questions)</label>
-                    <textarea id="message" name="message" rows="5" required placeholder="Tell us about your order or questions..."></textarea>
+                    <label for="message">Your Order Details</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Example: I'd love one Sweet Alabama Pecan bread and a 6-pack of Buttermilk Biscuits!"></textarea>
                 </div>
-                <button type="submit" class="btn btn-submit">Send Message</button>
+                <button type="submit" class="btn btn-submit">Submit Order Request</button>
             </form>
         </div>
     </section>
 
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2026 Hillbilly Baking. All Rights Reserved.</p>
+            <p>&copy; 2026 Hillbilly Baking. Monroe, MI.</p>
             <div class="footer-links">
                 <a href="https://www.facebook.com/profile.php?id=61589755246319" target="_blank">Follow us on Facebook</a>
             </div>
