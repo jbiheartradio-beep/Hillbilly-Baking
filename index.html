@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hillbilly Baking | Homestyle Baked Goods</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Hillbilly Baking</div>
+            <nav>
+                <a href="#about">Our Story</a>
+                <a href="#menu">Featured Goods</a>
+                <a href="#contact" class="btn-nav">Place an Order</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Fresh, Homestyle Baking Straight from the Heart</h1>
+            <p>Handcrafted sweets, classic comfort treats, and authentic flavors baked fresh daily.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Featured Goods</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-text">
+                <span class="subtitle">Welcome to Hillbilly Baking</span>
+                <h2>Made from Scratch, Just Like It Used to Be</h2>
+                <p>Welcome to our kitchen! At Hillbilly Baking, we believe that the best memories are made around the table with something sweet. We bring down-home flavor and authentic, time-tested recipes to everything we bake.</p>
+                <p>Whether you're craving nostalgic comfort treats, custom orders for a special event, or everyday staples made with love, we've got you covered. Check out our latest creations or reach out to place your custom order today!</p>
+            </div>
+            <div class="about-image-placeholder">
+                <div class="placeholder-card">
+                    <h3>Baked Fresh Daily</h3>
+                    <p>Follow our journey on Facebook for daily updates, freshly baked batches, and seasonal specials!</p>
+                    <a href="https://www.facebook.com/profile.php?id=61589755246319" target="_blank" class="fb-link">Visit Our Facebook Page →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Featured Specialties</h2>
+                <p>A sneak peek at some of our crowd favorites. Everything is handcrafted with premium ingredients.</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-info">
+                        <h3>Classic Whoopie Pies</h3>
+                        <p>Soft, cake-like cookies sandwiched together with a rich, fluffy cream filling. Available in classic chocolate, red velvet, and seasonal flavors.</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-info">
+                        <h3>Homestyle Cakes & Cupcakes</h3>
+                        <p>Moist, decadent cakes decorated beautifully for birthdays, family gatherings, or just weekend cravings.</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-info">
+                        <h3>Custom Treats & Pastries</h3>
+                        <p>Have something specific in mind? From custom cookies to rustic pastry platters, we can bring your baking ideas to life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container contact-box">
+            <h2>Place an Order or Ask a Question</h2>
+            <p>Have a custom baking request, event inquiry, or want to check what's fresh out of the oven today? Send us a message and we'll get right back to you!</p>
+            
+            <form action="https://formspree.io/f/your-formspree-id" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="_replyto" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">What are you craving? (Order details / questions)</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Tell us about your order or questions..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Hillbilly Baking. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.facebook.com/profile.php?id=61589755246319" target="_blank">Follow us on Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
